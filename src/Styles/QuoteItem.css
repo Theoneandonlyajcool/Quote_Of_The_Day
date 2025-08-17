@@ -1,0 +1,41 @@
+.q_cont {
+  /* border: 2px solid red; */
+  width: 40rem;
+  height: 12rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.q_child {
+  /* border: 2px solid orange; */
+  width: 100%;
+  max-width: 90%;
+  height: 100%;
+  max-height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.quote_of_the_day {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(33, 32, 32);
+}
+
+.q_author {
+  align-self: self-end;
+  color: gray;
+
+  /* margin-top: 1rem; */
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+}
